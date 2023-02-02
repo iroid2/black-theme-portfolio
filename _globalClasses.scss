@@ -32,8 +32,3 @@ button{
     color:white;
     font-weight: bold;
 }
-.not-on-mobile{
-    @media(max-width: 700px),(max-width: 200px){
-    display: none;
-}
-}

@@ -13,30 +13,38 @@ body{
 }
 .container{
     width: 100%;
+    padding: 1rem 3rem;
     .nav{
+
         width: 100%;
         color: white;
         gap: 1rem;
         padding: 1rem 1rem;
         // background-color: red;
-        @media(max-width: 700px),(max-width: 200px){
+        @media(max-width: 700px){
             width:100% ;
             background-color: red;
         }
         font-weight: bold;
         .left-nav{
             gap: 2rem;
-            width: 20%;
+            width: 10%;
             img{
                 width: 130px;
             }
         }
         .right-nav{
-            gap: 2rem;
+            gap: 1.4rem;
+            width: 90%;
             a{
+                font-size: 16px;
+                line-height: 27px;
                 button{
                     border-radius: 2rem;
                 }
+            }
+            svg{
+                width: 20px;
             }
         }
     }
@@ -62,26 +70,36 @@ body{
             }
         }
         .main-work-menu{
-            gap: 4.2rem;
+            gap: 1rem;
             width: 95%;
+            @media(max-width: 700px),(max-width: 200px){
+                flex-direction: column;
+            }
             .left-main{
-                width: 48%;
+                width: 50%;
                 font-weight: bold;
                 padding-left: 2rem;
                 padding-top: 10rem;
                 gap: 2rem;
                 flex-direction: column;
+                @media(max-width: 700px),(max-width: 200px){
+                    width: 100%;
+                }
                 h1{
                     width: 100%;
                     font-size: 70px;
                     line-height: 80px;
+                    @media(max-width: 700px),(max-width: 200px){
+                        // font-size: 40px;
+                        // line-height: 50px;
+                    }
                 }
             }
             .right-main{
                 width: 50%;
                 padding-top: 3rem;
                 img{
-                    width: 74%
+                    width: 88%
                 }
             }
         }
