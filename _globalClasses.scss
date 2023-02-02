@@ -1,0 +1,39 @@
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-start{
+    display: flex;
+    justify-content:flex-start ;
+}
+.flex-space{
+    display: flex;
+    justify-content: space-between
+}
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+button{
+    padding: .8rem 2rem;
+    font-weight: bold;
+    border: none;
+}
+.rotate{
+    transform: rotate(-90deg);
+}
+.p-color{
+    background-color: rgb(89,6,150);
+    color:white;
+    font-weight: bold;
+}
+.not-on-mobile{
+    @media(max-width: 700px),(max-width: 200px){
+    display: none;
+}
+}

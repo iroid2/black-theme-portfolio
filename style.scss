@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import"globalClasses";
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(22,18,26);
+    color: white;
+    width: 100vw;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.container{
+    width: 100%;
+    .nav{
+        width: 100%;
+        color: white;
+        gap: 1rem;
+        padding: 1rem 1rem;
+        // background-color: red;
+        @media(max-width: 700px),(max-width: 200px){
+            width:100% ;
+            background-color: red;
+        }
+        font-weight: bold;
+        .left-nav{
+            gap: 2rem;
+            width: 20%;
+            img{
+                width: 130px;
+            }
+        }
+        .right-nav{
+            gap: 2rem;
+            a{
+                button{
+                    border-radius: 2rem;
+                }
+            }
+        }
+    }
+    .work{
+        width: 100%;
+        .side-work-menu{
+            width: 5%;
+            gap: 1rem;
+
+            flex-direction: column;
+            svg{
+                width: 18px;
+            }
+            .line{
+                width: 30px;
+                height: 3px;
+                background-color: rgb(253, 253, 253);
+            }
+            p{
+                width: 140px;
+                // background-color: rebeccapurple;
+                
+            }
+        }
+        .main-work-menu{
+            gap: 4.2rem;
+            width: 95%;
+            .left-main{
+                width: 48%;
+                font-weight: bold;
+                padding-left: 2rem;
+                padding-top: 10rem;
+                gap: 2rem;
+                flex-direction: column;
+                h1{
+                    width: 100%;
+                    font-size: 70px;
+                    line-height: 80px;
+                }
+            }
+            .right-main{
+                width: 50%;
+                padding-top: 3rem;
+                img{
+                    width: 74%
+                }
+            }
+        }
+    }
+}
