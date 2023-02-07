@@ -1,0 +1,31 @@
+.abt-me{
+    width: 100%;
+    padding: 2rem 7rem;
+    @media(max-width:768px){
+        padding: 2rem 1rem;
+        flex-direction: column;
+    }
+    .left-abt{
+        width: 50%;
+        @media(max-width:768px){
+            width: 100%;
+        }
+        img{
+            width: 85%;
+            @media(max-width:768px){
+                width: 100%;
+            }
+        }
+    }
+    .right-abt{
+        width: 50%;
+        flex-direction: column;
+        gap: 1.3rem;
+        @media(max-width:768px){
+            width: 100%;
+        }
+        .hire-btn{
+            width: 25%;
+        }
+    }
+}

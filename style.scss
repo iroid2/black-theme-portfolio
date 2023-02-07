@@ -5,6 +5,7 @@
 }
 @import"globalClasses";
 @import"latestWork";
+@import"about";
 body{
     font-family: 'Roboto', sans-serif;
     background-color: rgb(22,18,26);
@@ -16,7 +17,7 @@ body{
     width: 100%;
     padding: 1rem 3rem;
     @media(max-width:768px){
-        padding: 0%;
+        padding: 1rem 0rem;
     }
     .mobo-nav{
         width: 100%;
@@ -24,6 +25,7 @@ body{
         z-index: 100;
         @media(max-width:768px){
             display: block;
+            top: 0;
             position: fixed;
             width: 100%;
             display: flex;
@@ -104,6 +106,7 @@ body{
     }
     .side-work-menu{
         width: 5%;
+        z-index: 0;
         // background-color: red;
         gap: 1rem;
         flex-direction: column;
@@ -152,6 +155,7 @@ body{
                 @media(max-width:768px){
                     font-size: 40px;
                     line-height: 50px;
+                    width: 100%;
                 }
             }
         }

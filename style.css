@@ -74,6 +74,29 @@ h5 {
   font-family: "Josefin Sans";
 }
 
+.sub-title {
+  font-family: "Josefin Sans";
+  font-size: 31px;
+  line-height: 36px;
+  font-style: normal;
+}
+
+.abt-details {
+  font-family: "Josefin Sans";
+  font-size: 18px;
+  line-height: 27px;
+}
+
+span {
+  color: rgb(88, 0, 255);
+}
+
+.bl-btn {
+  background-color: black;
+  border-radius: 0.6rem;
+  color: white;
+}
+
 .latest-work {
   background-color: #0F0B12;
   width: 100%;
@@ -149,6 +172,46 @@ h5 {
   }
 }
 
+.abt-me {
+  width: 100%;
+  padding: 2rem 7rem;
+}
+@media (max-width: 768px) {
+  .abt-me {
+    padding: 2rem 1rem;
+    flex-direction: column;
+  }
+}
+.abt-me .left-abt {
+  width: 50%;
+}
+@media (max-width: 768px) {
+  .abt-me .left-abt {
+    width: 100%;
+  }
+}
+.abt-me .left-abt img {
+  width: 85%;
+}
+@media (max-width: 768px) {
+  .abt-me .left-abt img {
+    width: 100%;
+  }
+}
+.abt-me .right-abt {
+  width: 50%;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+@media (max-width: 768px) {
+  .abt-me .right-abt {
+    width: 100%;
+  }
+}
+.abt-me .right-abt .hire-btn {
+  width: 25%;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: rgb(22, 18, 26);
@@ -163,7 +226,7 @@ body {
 }
 @media (max-width: 768px) {
   .container {
-    padding: 0%;
+    padding: 1rem 0rem;
   }
 }
 .container .mobo-nav {
@@ -174,6 +237,7 @@ body {
 @media (max-width: 768px) {
   .container .mobo-nav {
     display: block;
+    top: 0;
     position: fixed;
     width: 100%;
     display: flex;
@@ -260,6 +324,7 @@ body {
 }
 .work .side-work-menu {
   width: 5%;
+  z-index: 0;
   gap: 1rem;
   flex-direction: column;
 }
@@ -315,6 +380,7 @@ body {
   .work .main-work-menu .left-main h1 {
     font-size: 40px;
     line-height: 50px;
+    width: 100%;
   }
 }
 .work .main-work-menu .right-main {
