@@ -51,6 +51,21 @@ button {
   font-weight: bold;
 }
 
+h2 {
+  font-size: 46px;
+  line-height: 56px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.align {
+  text-align: center;
+}
+
+body {
+  background-color: red;
+  color: green;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: rgb(22, 18, 26);
@@ -75,10 +90,12 @@ body {
 @media (max-width: 768px) {
   .container .mobo-nav {
     display: block;
+    position: fixed;
+    width: 100%;
     display: flex;
     padding: 1rem 1rem;
     justify-content: space-between;
-    background-color: red;
+    background-color: black;
     gap: 3rem;
   }
 }
@@ -86,11 +103,16 @@ body {
   width: 50%;
 }
 .container .mobo-nav .mobo-log img {
-  width: 50%;
+  width: 70%;
 }
 .container .mobo-nav .mobo-menu {
   width: 50%;
-  background-color: green;
+  gap: 2rem;
+}
+.container .mobo-nav .mobo-menu .p-color {
+  width: 100px;
+  border-radius: 2rem;
+  padding: 0.2rem 0.3rem;
 }
 .container .nav {
   width: 100%;
@@ -102,7 +124,6 @@ body {
 @media (max-width: 768px), (max-width: 400px) {
   .container .nav {
     width: 100%;
-    background-color: red;
     display: none;
     padding: 1rem 1rem;
   }
@@ -114,7 +135,6 @@ body {
 @media (max-width: 768px), (max-width: 400px) {
   .container .nav .left-nav {
     width: 100%;
-    background-color: red;
   }
 }
 .container .nav .left-nav img {
@@ -145,6 +165,7 @@ body {
 @media (max-width: 768px) {
   .container .work {
     flex-direction: column;
+    width: 100%;
   }
 }
 .container .work .side-work-menu {
@@ -214,6 +235,8 @@ body {
   .container .work .main-work-menu .right-main {
     order: 1;
     width: 100%;
+    padding-left: 0.3rem;
+    padding-top: 10rem;
   }
 }
 .container .work .main-work-menu .right-main img {

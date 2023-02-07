@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 @import"globalClasses";
+@import"latestWork";
 body{
     font-family: 'Roboto', sans-serif;
     background-color: rgb(22,18,26);
@@ -22,25 +23,31 @@ body{
         display: none;
         @media(max-width:768px){
             display: block;
+            position: fixed;
+            width: 100%;
             display: flex;
             padding: 1rem 1rem;
             justify-content: space-between;
-            background-color: red;
+            background-color: black;
             gap: 3rem;
         }
         .mobo-log{
             width: 50%;
             img{
-                width: 50%;
+                width: 70%;
             }
         }
         .mobo-menu{
             width: 50%;
-            background-color: green;
+            gap: 2rem;
+            .p-color{
+                width: 100px;
+                border-radius: 2rem;
+                padding: .2rem .3rem;
+            }
         }
     }
     .nav{
-
         width: 100%;
         color: white;
         gap: 1rem;
@@ -48,7 +55,6 @@ body{
         // background-color: red;
         @media(max-width:768px),(max-width: 400px){
             width:100% ;
-            background-color: red;
             display: none;
             padding: 1rem 1rem;
         }
@@ -58,7 +64,6 @@ body{
             width: 10%;
              @media(max-width:768px),(max-width: 400px){
                 width:100% ;
-                background-color: red;
         }
             img{
                 width: 130px;
@@ -86,6 +91,7 @@ body{
         width: 100%;
         @media(max-width:768px){
             flex-direction: column;
+            width: 100%;
         }
         .side-work-menu{
             width: 5%;
@@ -146,6 +152,8 @@ body{
                 @media(max-width:768px),(max-width: 200px){
                     order: 1;
                     width: 100%;
+                    padding-left: .3rem ;
+                    padding-top: 10rem;
                 }
                 img{
                     width: 100%
