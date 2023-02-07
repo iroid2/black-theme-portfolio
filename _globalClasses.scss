@@ -73,3 +73,30 @@ span{
     border-radius: .6rem;
     color: white;
 }
+.drop-down{
+    background-color:black;
+    z-index: 400;
+    width: 200px;
+    display: none;
+    position: absolute;
+    top: 40px;
+    padding: 1rem 4rem;
+    color: white;
+}
+.portfolio ,.blog{
+    position: relative;
+    display: inline-block;
+}
+.portfolio:hover .drop-down,.blog:hover .drop-down {
+    display: block;
+}
+.blog-men{
+    margin-left: 2rem;
+}
+.portfolio svg,.blog svg{
+    align-items: center;    
+    position: absolute;
+}
+.portfolio svg:hover, .blog svg:hover {
+    transform: rotate(-180deg);
+}

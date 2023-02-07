@@ -97,6 +97,39 @@ span {
   color: white;
 }
 
+.drop-down {
+  background-color: black;
+  z-index: 400;
+  width: 200px;
+  display: none;
+  position: absolute;
+  top: 40px;
+  padding: 1rem 4rem;
+  color: white;
+}
+
+.portfolio, .blog {
+  position: relative;
+  display: inline-block;
+}
+
+.portfolio:hover .drop-down, .blog:hover .drop-down {
+  display: block;
+}
+
+.blog-men {
+  margin-left: 2rem;
+}
+
+.portfolio svg, .blog svg {
+  align-items: center;
+  position: absolute;
+}
+
+.portfolio svg:hover, .blog svg:hover {
+  transform: rotate(-180deg);
+}
+
 .latest-work {
   background-color: #0F0B12;
   width: 100%;
@@ -261,7 +294,7 @@ body {
 .container .mobo-nav .mobo-menu .p-color {
   width: 100px;
   border-radius: 2rem;
-  padding: 0.2rem 0.3rem;
+  padding: 0.5rem 0.3rem;
 }
 .container .nav {
   width: 100%;
