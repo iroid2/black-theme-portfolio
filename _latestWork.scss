@@ -1,4 +1,44 @@
-body{
-    background-color: red;
-    color: green;
+.latest-work{
+    background-color: #0F0B12;
+    width: 100%;
+    .top-latest-work{
+        width: 100%;
+        padding-top: 5rem;
+    }
+    .bottm-latest-work{
+        width: 100%;
+        padding: 2rem 6rem;
+        .card{
+            width: 31%;
+            // background-color: royalblue;
+            position: relative;
+            border-radius: .6rem;
+            overflow: hidden;
+            .img-text{
+                background-color: white;
+                position: absolute;
+                bottom: 0;
+                padding: 1rem 2rem;
+                color: black;
+                width: 100%;
+                opacity: 0;
+                &:hover{
+                    animation: 5s ease-in;
+                    opacity: 1;
+                    @keyframes scroll {
+                        0%{
+                            bottom: 0;
+                        }
+                        50%{
+                            bottom: 100;
+                        }
+                    }
+                }
+            }
+            img{
+                width: 100%;
+            }
+
+        }
+    }
 }
