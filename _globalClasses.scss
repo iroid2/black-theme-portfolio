@@ -26,6 +26,9 @@ button{
 }
 .rotate{
     transform: rotate(-90deg);
+    @media(max-width:768px){
+        transform: rotate(0deg);
+    }
 }
 .p-color{
     background-color: rgb(89,6,150);
