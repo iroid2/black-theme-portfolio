@@ -77,6 +77,7 @@ h5 {
 .latest-work {
   background-color: #0F0B12;
   width: 100%;
+  z-index: 2;
 }
 .latest-work .top-latest-work {
   width: 100%;
@@ -85,12 +86,24 @@ h5 {
 .latest-work .bottm-latest-work {
   width: 100%;
   padding: 2rem 6rem;
+  flex-wrap: wrap;
+  gap: 1.4rem;
+}
+@media (max-width: 768px) {
+  .latest-work .bottm-latest-work {
+    padding: 2rem 2rem;
+  }
 }
 .latest-work .bottm-latest-work .card {
   width: 31%;
   position: relative;
   border-radius: 0.6rem;
   overflow: hidden;
+}
+@media (max-width: 768px) {
+  .latest-work .bottm-latest-work .card {
+    width: 100%;
+  }
 }
 .latest-work .bottm-latest-work .card .img-text {
   background-color: white;
@@ -100,6 +113,11 @@ h5 {
   color: black;
   width: 100%;
   opacity: 0;
+}
+@media (max-width: 768px) {
+  .latest-work .bottm-latest-work .card .img-text {
+    width: 98%;
+  }
 }
 .latest-work .bottm-latest-work .card .img-text:hover {
   -webkit-animation: 5s ease-in;
@@ -125,6 +143,11 @@ h5 {
 .latest-work .bottm-latest-work .card img {
   width: 100%;
 }
+@media (max-width: 768px) {
+  .latest-work .bottm-latest-work .card img {
+    width: 98%;
+  }
+}
 
 body {
   font-family: "Roboto", sans-serif;
@@ -146,6 +169,7 @@ body {
 .container .mobo-nav {
   width: 100%;
   display: none;
+  z-index: 100;
 }
 @media (max-width: 768px) {
   .container .mobo-nav {
