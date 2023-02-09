@@ -312,7 +312,7 @@ span {
 .abt-me .right-abt .graphic-skils .hire-btn {
   width: 30%;
 }
-@media (max-width: 375px) {
+@media (max-width: 360px) {
   .abt-me .right-abt .graphic-skils .hire-btn {
     width: 20%;
   }
