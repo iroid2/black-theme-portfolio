@@ -136,6 +136,10 @@ span {
   transform: rotate(50deg);
 }
 
+.hub-color {
+  color: orange;
+}
+
 .latest-work {
   background-color: #0F0B12;
   width: 100%;
@@ -691,6 +695,12 @@ span {
   border-top: 1px solid gray;
   width: 90%;
   margin-left: 2rem;
+}
+@media (max-width: 768px) {
+  .conctact .bottom-contact {
+    width: 100%;
+    margin-left: 0rem;
+  }
 }
 
 body {
