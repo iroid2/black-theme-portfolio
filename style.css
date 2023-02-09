@@ -266,9 +266,16 @@ span {
   margin-bottom: 1rem;
   font-size: 42px;
 }
+@media (max-width: 768px) {
+  .abt-me .right-abt .graphic-skils .skil-icon i {
+    padding: 0.4rem 0.6rem;
+    background-color: rgb(241, 242, 241);
+  }
+}
 .abt-me .right-abt .graphic-skils .photoshop {
   align-items: center;
   flex-direction: column;
+  gap: 1rem;
 }
 .abt-me .right-abt .graphic-skils .photoshop .icon {
   align-items: center;
@@ -283,16 +290,31 @@ span {
   margin-bottom: 1rem;
   font-size: 20px;
 }
+@media (max-width: 768px) {
+  .abt-me .right-abt .graphic-skils .photoshop .icon {
+    width: 10%;
+    background-color: rgb(245, 244, 244);
+    padding-top: 1rem;
+    padding-bottom: 0.8rem;
+    padding-right: 2rem;
+    padding-left: 1rem;
+  }
+}
 .abt-me .right-abt .graphic-skils .photoshop .icon img {
   margin-right: 1rem;
   width: 25px;
 }
-.abt-me .right-abt .hire-btn {
+@media (max-width: 768px) {
+  .abt-me .right-abt .graphic-skils .photoshop .icon img {
+    width: 20px;
+  }
+}
+.abt-me .right-abt .graphic-skils .hire-btn {
   width: 30%;
 }
 @media (max-width: 375px) {
-  .abt-me .right-abt .hire-btn {
-    width: 50%;
+  .abt-me .right-abt .graphic-skils .hire-btn {
+    width: 20%;
   }
 }
 

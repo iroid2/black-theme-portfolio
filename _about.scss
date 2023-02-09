@@ -39,6 +39,10 @@
                     color: black;
                     margin-bottom: 1rem;
                     font-size: 42px;
+                    @media(max-width:768px){
+                        padding: .4rem .6rem;
+                        background-color: rgb(241, 242, 241);
+                    }
                 }
                 
                 
@@ -46,6 +50,7 @@
             .photoshop{
                 align-items: center;
                 flex-direction: column;
+                gap: 1rem;
                 .icon{
                     align-items: center;
                     padding-top: 1.5rem;
@@ -58,10 +63,19 @@
                     color: black;
                     margin-bottom: 1rem;
                     font-size: 20px;
-                    
+                    @media(max-width:768px){
+                        width: 10%;
+                        background-color: rgb(245, 244, 244);
+                        padding-top: 1rem;
+                        padding-bottom: .8rem;
+                        padding-right: 2rem;
+                        padding-left: 1rem;
+                    }
                     img{
                         margin-right: 1rem;
                         width: 25px;
+                        @media(max-width:768px){
+                            width: 20px;
                     }
                 }
             }
@@ -69,7 +83,7 @@
         .hire-btn{
             width: 30%;
             @media(max-width:375px){
-                width: 50%;
+                width: 20%;
         }
     }
-}}
+}}}
