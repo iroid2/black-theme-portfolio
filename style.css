@@ -426,9 +426,8 @@ span {
 }
 @media (max-width: 768px) {
   .trusted .top-trusted {
-    font-size: 46px;
+    font-size: 30px;
     line-height: 56px;
-    background-color: red;
   }
 }
 .trusted .top-trusted .bottm-trusted {
