@@ -290,6 +290,11 @@ span {
 .abt-me .right-abt .hire-btn {
   width: 30%;
 }
+@media (max-width: 375px) {
+  .abt-me .right-abt .hire-btn {
+    width: 50%;
+  }
+}
 
 .services {
   margin-top: 4rem;

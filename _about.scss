@@ -58,6 +58,7 @@
                     color: black;
                     margin-bottom: 1rem;
                     font-size: 20px;
+                    
                     img{
                         margin-right: 1rem;
                         width: 25px;
@@ -67,6 +68,8 @@
         }
         .hire-btn{
             width: 30%;
+            @media(max-width:375px){
+                width: 50%;
         }
     }
-}
+}}
