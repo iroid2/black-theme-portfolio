@@ -1,7 +1,8 @@
 .conctact{
     background-color: rgb(0,1,1);
     width:100% ;
-    padding: 3rem 2rem;
+    padding-top: 3.3rem;
+    padding: 1rem 3rem;
     .top-contact{
         .contact-details{
             width: 35%;
@@ -104,7 +105,7 @@
                 margin-top: 1rem;
                 input{
                     width: 100%;
-                    padding: .8rem 3.6rem;
+                    padding: 1rem 2rem;
                     border-radius: 20px;
                 }
                 button{
@@ -122,7 +123,8 @@
     .bottom-contact{
         text-align: center;
         margin-top: 5rem;
-        padding-top: 1.2rem;
+        padding-top: 1.6rem;
+        padding-bottom: 1rem;
         border-top: 1px solid gray;
         width: 90%;
         margin-left: 2rem;
