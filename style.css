@@ -557,11 +557,27 @@ span {
   padding-top: 3.3rem;
   padding: 1rem 3rem;
 }
+@media (max-width: 768px) {
+  .conctact {
+    width: 100%;
+    padding: 0;
+  }
+}
+@media (max-width: 768px) {
+  .conctact .top-contact {
+    flex-direction: column;
+  }
+}
 .conctact .top-contact .contact-details {
   width: 35%;
   gap: 2rem;
   flex-direction: column;
   padding: 1rem;
+}
+@media (max-width: 768px) {
+  .conctact .top-contact .contact-details {
+    width: 100%;
+  }
 }
 .conctact .top-contact .contact-details img {
   width: 40%;
@@ -574,6 +590,11 @@ span {
   padding: 0.1rem 2rem;
   flex-direction: column;
 }
+@media (max-width: 768px) {
+  .conctact .top-contact .contact-Numbers {
+    width: 100%;
+  }
+}
 .conctact .top-contact .contact-Numbers .title .line {
   width: 55px;
   height: 4px;
@@ -585,6 +606,11 @@ span {
   line-height: 27px;
   font-family: Family "Josefin Sans";
   color: rgba(255, 255, 255, 0.84);
+}
+@media (max-width: 768px) {
+  .conctact .top-contact .contact-Numbers .numbs-details {
+    width: 100%;
+  }
 }
 .conctact .top-contact .contact-Numbers .numbs-details .numb {
   margin-top: 2rem;

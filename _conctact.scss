@@ -3,13 +3,25 @@
     width:100% ;
     padding-top: 3.3rem;
     padding: 1rem 3rem;
+    @media(max-width:768px){
+        width: 100%;
+        padding: 0;
+    }
     .top-contact{
+        @media(max-width:768px){
+            flex-direction: column;
+        }
         .contact-details{
             width: 35%;
             // background-color: red;
             gap: 2rem;
             flex-direction: column;
             padding: 1rem;
+            @media(max-width:768px){
+                width: 100%;
+                // background-color: red;
+                
+            }
             img{
                 width: 40%;
             }
@@ -21,6 +33,9 @@
             width: 35%;
             padding: .1rem 2rem;
             flex-direction: column;
+            @media(max-width:768px){
+                width: 100%;
+            }
             .title{
                 .line{
                     width: 55px;
@@ -38,6 +53,9 @@
             }
             .numbs-details{
                 // background-color: red;
+                @media(max-width:768px){
+                    width: 100%;
+                }
                 .numb{
                     margin-top: 2rem;
                     gap: 1.2rem;
