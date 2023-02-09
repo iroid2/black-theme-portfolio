@@ -17,6 +17,10 @@
         h2{
             font-size: 70px;
             line-height: 70px;
+            @media(max-width:768px){
+                font-size: 30px;
+                line-height: 30px;
+            }
         }
         .my-contacts{
             width: 40%;

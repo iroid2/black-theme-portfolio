@@ -114,3 +114,14 @@ span{
 .m-top-1{
     margin-top: 1rem;
 }
+.absol{
+    padding: 1rem 1rem;
+    background-color: rgb(176, 28, 240);
+    border-radius: 50%;
+    position: absolute;
+    font-size: 2rem;
+    // position: absolute;
+    right: 1rem;
+    position: fixed;
+    top: 29rem;
+}
