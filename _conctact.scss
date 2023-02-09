@@ -35,6 +35,8 @@
             flex-direction: column;
             @media(max-width:768px){
                 width: 100%;
+                padding: .1rem .5rem;
+                background-color: red;
             }
             .title{
                 .line{
@@ -59,6 +61,8 @@
                 .numb{
                     margin-top: 2rem;
                     gap: 1.2rem;
+                    @media(max-width:768px){
+                        gap: .5rem;
                     i{
                         font-size: 1.1rem;
                         color: rgb(89,6,150);
@@ -152,4 +156,4 @@
         }
     }
     
-}
+}}

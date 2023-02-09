@@ -597,6 +597,8 @@ span {
 @media (max-width: 768px) {
   .conctact .top-contact .contact-Numbers {
     width: 100%;
+    padding: 0.1rem 0.5rem;
+    background-color: red;
   }
 }
 .conctact .top-contact .contact-Numbers .title .line {
@@ -620,44 +622,49 @@ span {
   margin-top: 2rem;
   gap: 1.2rem;
 }
-.conctact .top-contact .contact-Numbers .numbs-details .numb i {
-  font-size: 1.1rem;
-  color: rgb(89, 6, 150);
+@media (max-width: 768px) {
+  .conctact .top-contact .contact-Numbers .numbs-details .numb {
+    gap: 0.5rem;
+  }
+  .conctact .top-contact .contact-Numbers .numbs-details .numb i {
+    font-size: 1.1rem;
+    color: rgb(89, 6, 150);
+  }
 }
-.conctact .top-contact .contact-Numbers .numbs-details a {
+.conctact .top-contact .contact-Numbers .numbs-details .numb a {
   padding-top: 0.8rem;
 }
-.conctact .top-contact .contact-Numbers .email-details .numb {
+.conctact .top-contact .contact-Numbers .numbs-details .email-details .numb {
   margin-top: 0.7rem;
   gap: 1.2rem;
 }
-.conctact .top-contact .contact-Numbers .email-details .numb i {
+.conctact .top-contact .contact-Numbers .numbs-details .email-details .numb i {
   font-size: 1.1rem;
   color: rgb(89, 6, 150);
 }
-.conctact .top-contact .contact-Numbers .email-details a {
+.conctact .top-contact .contact-Numbers .numbs-details .email-details a {
   padding-top: 0.8rem;
 }
-.conctact .top-contact .contact-Numbers .website-details .numb {
+.conctact .top-contact .contact-Numbers .numbs-details .website-details .numb {
   margin-top: 0.7rem;
   gap: 1.2rem;
 }
-.conctact .top-contact .contact-Numbers .website-details .numb i {
+.conctact .top-contact .contact-Numbers .numbs-details .website-details .numb i {
   font-size: 1.1rem;
   color: rgb(89, 6, 150);
 }
-.conctact .top-contact .contact-Numbers .website-details a {
+.conctact .top-contact .contact-Numbers .numbs-details .website-details a {
   padding-top: 0.8rem;
 }
-.conctact .top-contact .contact-socials {
+.conctact .top-contact .contact-Numbers .contact-socials {
   padding: 2rem;
 }
-.conctact .top-contact .contact-socials .socials {
+.conctact .top-contact .contact-Numbers .contact-socials .socials {
   width: 80%;
   gap: 0.6rem;
   margin-bottom: 2rem;
 }
-.conctact .top-contact .contact-socials .socials .facebk {
+.conctact .top-contact .contact-Numbers .contact-socials .socials .facebk {
   width: 23%;
   padding: 0.6rem;
   text-align: center;
@@ -666,19 +673,19 @@ span {
   border-radius: 50%;
   border: 2px solid rgb(152, 152, 153);
 }
-.conctact .top-contact .contact-socials .socials .facebk:hover {
+.conctact .top-contact .contact-Numbers .contact-socials .socials .facebk:hover {
   background-color: rgb(80, 1, 236);
 }
-.conctact .top-contact .contact-socials .input {
+.conctact .top-contact .contact-Numbers .contact-socials .input {
   position: relative;
   margin-top: 1rem;
 }
-.conctact .top-contact .contact-socials .input input {
+.conctact .top-contact .contact-Numbers .contact-socials .input input {
   width: 100%;
   padding: 1rem 2rem;
   border-radius: 20px;
 }
-.conctact .top-contact .contact-socials .input button {
+.conctact .top-contact .contact-Numbers .contact-socials .input button {
   padding: 0.7rem 0.6rem;
   border-radius: 20px;
   background-color: rgb(88, 7, 150);
@@ -687,7 +694,7 @@ span {
   right: 0.4rem;
   top: 8%;
 }
-.conctact .bottom-contact {
+.conctact .top-contact .bottom-contact {
   text-align: center;
   margin-top: 5rem;
   padding-top: 1.6rem;
@@ -697,7 +704,7 @@ span {
   margin-left: 2rem;
 }
 @media (max-width: 768px) {
-  .conctact .bottom-contact {
+  .conctact .top-contact .bottom-contact {
     width: 100%;
     margin-left: 0rem;
   }
@@ -859,6 +866,7 @@ body {
   .work .main-work-menu .left-main {
     width: 100%;
     order: 2;
+    padding-left: 1rem;
     padding-top: 3rem;
   }
 }
@@ -885,8 +893,8 @@ body {
   .work .main-work-menu .right-main {
     order: 1;
     width: 100%;
-    padding-left: 0.3rem;
-    padding-top: 10rem;
+    padding-left: 1.5rem;
+    padding-top: 8rem;
   }
 }
 .work .main-work-menu .right-main img {
@@ -894,6 +902,6 @@ body {
 }
 @media (max-width: 768px), (max-width: 200px) {
   .work .main-work-menu .right-main img {
-    width: 90%;
+    width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
