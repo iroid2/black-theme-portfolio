@@ -24,6 +24,47 @@
         @media(max-width:768px){
             width: 100%;
         }
+        .graphic-skils{
+            width: 100%;
+            // background-color: red;
+            padding: 2rem 0rem;
+            .skil-icon{
+                width: 20%;
+                // background-color: red;
+                text-align: center;
+                i{
+                    padding: 1.2rem 1.2rem;
+                    background-color: white;
+                    border-radius: 50%;
+                    color: black;
+                    margin-bottom: 1rem;
+                    font-size: 42px;
+                }
+                
+                
+            }
+            .photoshop{
+                align-items: center;
+                flex-direction: column;
+                .icon{
+                    align-items: center;
+                    padding-top: 1.5rem;
+                    padding-bottom: 1.5rem;
+                    padding-right: 3.5rem;
+                    padding-left: 2rem;
+                    width: 40%;
+                    background-color: white;
+                    border-radius: 50%;
+                    color: black;
+                    margin-bottom: 1rem;
+                    font-size: 20px;
+                    img{
+                        margin-right: 1rem;
+                        width: 25px;
+                    }
+                }
+            }
+        }
         .hire-btn{
             width: 30%;
         }

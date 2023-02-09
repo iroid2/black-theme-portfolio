@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Black theme tech site</title>
     <link rel="stylesheet" href="style.css">
-    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,600;1,300;1,700&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 </head>
 <body>
     <div class="container">
@@ -21,7 +21,6 @@
                 <a href="" class="center" ><svg  xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" style="fill: white;transform: ;msFilter:;"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg></a>
             </div>
         </div> 
-        
         <div class="nav center">
             <div class="left-nav">
                 <img src="./assets/logo1.png" alt="">
@@ -64,7 +63,7 @@
                 <h1>Hi, I'am Malton Snow another UX Designer based in North</h1>
                 <div class="main-work-btns">
                     <button class="bl-btn">Download Cv</button>
-                    <a href="#">Your PortFolio</a>  
+                    <a href="#">Your PortFolio <i class='bx bx-up-arrow-alt'></i></a>  
                 </div>
             </div>
             <div class="right-main">
@@ -129,11 +128,172 @@
             <h2>About me</h2>
             <p class="sub-title">"I had really enjoyed my journey in <span>design industry.</span>  It changed my life. I want others to have a chance too"</p>
             <p class="abt-details">Neque ornare aenean euismod elementum nisi quis eleifend. Id faucibus nisl tincidunt eget nullam non nisi est. Suscipit tellus mauris a diam. Eu lobortis elementum nibh tellus molestie nunc. Suspendisse potenti nullam ac tortor vitae.</p>
-            <div class="graphic-skils">
-
+            <div class="graphic-skils flex-start">
+                <div class="figma skil-icon">
+                    <i class='bx bxl-figma' ></i>
+                    <p>90%</p>
+                </div>
+                <div class="figma skil-icon">
+                    <i class='bx bx-diamond' ></i>
+                    <p>90%</p>
+                </div>
+                <div class="photoshop skil-icon align center">
+                    <div class="icon">
+                        <img src="./icons/adobe-photoshop.png" alt="">
+                    </div>
+                    <p>85%</p>
+                </div>
+                <div class="photoshop figma skil-icon">
+                    <div class="icon">
+                        <img src="./icons/adobe-illustrator.png" alt="">
+                    </div>
+                    <p>70%</p>
+                </div>
+                <div class="figma photoshop skil-icon">
+                    <div class="icon">
+                        <img src="./icons/premiere.png" alt="">
+                    </div>
+                    <p>80%</p>
+                </div>
             </div>
-            <button class="bl-btn hire-btn">Hire Me</button>
+            <button class="bl-btn hire-btn">Hire Me <i class='bx center bx-up-arrow-alt'></i></button>
         </div>
     </section>
+    <section class="services center">
+        <div class="left-services flex-start">
+            <h2>These are my <br> services</h2>
+            <p>Neque ornare aenean euismod elementum nisi quis eleifend. Id faucibus nisl tincidunt eget nullam non nisi est. Suscipit tellus mauris a diam. Eu lobortis elementum.</p>
+            <button class="bl-btn">Say hello <i class='bx bx-up-arrow-alt'></i></button>
+        </div>
+        <div class="right-services center">
+            <div class="card center">
+                <img src="https://backtheme.tech/products/wordpress/enthor-dark/wp-content/uploads/2023/01/wh_1.png" alt="">
+                <h3>Art Direction</h3>
+                <p>Creating a higher spacing and how people move through a unique works area.</p>
+            </div>
+            <div class="card center">
+                <img src="https://backtheme.tech/products/wordpress/enthor-dark/wp-content/uploads/2023/01/wh_2.png" alt="">
+                <h3>UX/UI Design</h3>
+                <p>Design a higher spacing and how people move through a with world place.</p>
+            </div>
+            <div class="card center">
+                <img src="https://backtheme.tech/products/wordpress/enthor-dark/wp-content/uploads/2023/01/wh_3.png" alt="">
+                <h3>Web Development</h3>
+                <p>Design a higher spacing and how people move through a with world place.</p>
+            </div>
+            <div class="card center">
+                <img src="https://backtheme.tech/products/wordpress/enthor-dark/wp-content/uploads/2023/01/wh_3.png" alt="">
+                <h3>Motion Graphic</h3>
+                <p>Graphic a higher spacing and how people move through a unique motion.</p>
+            </div>
+        </div>
+    </section>
+    <section class="trusted">
+        <div class="top-trusted">
+            <h2>Hear from trusted <br> clients</h2>
+        </div>
+        <!-- <div class="bottm-trusted">
+            <div class="testimony  mySwiper">
+                <div class="test-content  center swiper-wrapper">
+                    <div class="slide  center ">
+                        <div class="left-slide">
+                            <div class="overaly"></div>
+                            <img src="./assets/testimonial.jpg" alt="">
+                        </div>
+                        <div class="right-slide flex-start">
+                            <img src="./assets/qu.png" alt="">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita animi debitis itaque, quis assumenda consectetur fugiat repudiandae aspernatur quidem velit optio? Repellat a eos tempora ipsam cumque, aut est blanditiis!
+                            Expedita laboriosam sint ut, ad vero nulla eaque aliquam, cupiditate tenetur libero ut veniam ad.</p>
+                            <div class="client-details">
+                                <p class="client-name">Ester Polaster</p>
+                                <p class="client-role"> UI Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div> -->
+    </section>
+    <section class="happy-sectn flex-start">
+        <div class="left-happy-sectn flex-start">
+            <h2>I'm always <br> happy to talk</h2>
+            <p>Nunc eget lorem dolor sed viverra. Orci nulla pellentesque dignissim enim sit amet venenatis. Cras pulvinar mattis nunc sed.</p>
+            <div class="my-contacts flex-start">
+                <div class="email flex-start">
+                    <div class="email-icon center">
+                        <i class='bx bx-envelope '></i>
+                    </div>
+                    <div class="email-text">
+                        <h3>Email:</h3>
+                        <p>iroidtu2@gmail.com</p>
+                    </div>
+                </div>
+                <div class="phone email  flex-start">
+                    <div class="email-icon center">
+                        <i class='bx bx-phone-call' ></i>
+                    </div>
+                    <div class="email-text">
+                        <h3>Phone:</h3>
+                        <p>support@backtheme.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right-happy-sectn flex-start">
+                <input type="text" placeholder="Your Name">
+                <input type="text" placeholder="Your Email">
+                <textarea name="" id="" cols="30" placeholder="Your Messege" rows="10"></textarea>
+                <button class="bl-btn">Send messege</button>
+        </div>
+    </section>
+    <section class="conctact flex-start">
+        <div class="contact-details flex-start">
+            <img src="./assets/footer_logo-300x90.png" alt="">
+            <p>We have lots of Portfolio and programs from the main market experts.</p>
+            <div class="skills">
+                <p>Branding Design</p>
+                <p>UI/UX Design</p>
+                <p>Motion Animation</p>
+            </div>
+        </div>
+        <div class="contact-Numbers flex-start">
+            <div class="title">
+                <h3>Contact Me</h3>
+                <div class="line"></div>
+            </div>
+            <div class="numbs-details">
+                <a href="tel:(+256)0757916783" class="numb flex-start">
+                    <i class='bx bx-phone-call' ></i>
+                    <p class="real-numb">(010) 123 4536 7898</p>
+                </a>
+            </div>
+            <div class="email-details">
+                <a href="mail.iroid.com" class="numb flex-start">
+                    <i class='bx bx-envelope'></i>
+                    <p class="real-numb">iroidtu2@gmail.com</p>
+                </a>
+                
+            </div>
+            <div class="website-details">
+                <a href="www.desishub.com" class="numb flex-start">
+                    <i class='bx bx-globe'></i>
+                    <p class="real-numb">www.desishub.com</p>
+                </a>
+                
+            </div>
+        </div>
+        <div class="contact-socials">
+            <div class="socials">
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+            <p>Subscribe for our mailing List</p>
+        </div>
+    </section>
+<script src="./script.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
 </body>
 </html>

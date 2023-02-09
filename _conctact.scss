@@ -1,0 +1,71 @@
+.conctact{
+    width:100% ;
+    .contact-details{
+        width: 35%;
+        background-color: red;
+        gap: 2rem;
+        flex-direction: column;
+        padding: 1rem;
+        img{
+            width: 40%;
+        }
+    }
+    .contact-Numbers{
+        width: 35%;
+        padding: .1rem 2rem;
+        flex-direction: column;
+        .title{
+            .line{
+                width: 55px;
+                height: 4px;
+                background-color:  rgb(89,6,150);
+                margin-top: 1rem;
+            }
+        }
+        .numbs-details{
+            .numb{
+                margin-top: 2rem;
+                gap: .7rem;
+                i{
+                    font-size: 1.1rem;
+                    color: rgb(89,6,150);
+                }
+            }
+            a{
+                padding-top: .8rem;
+            }
+            
+        }
+        .email-details{
+            .numb{
+                margin-top: .7rem;
+                gap: .7rem;
+                i{
+                    font-size: 1.1rem;
+                    color: rgb(89,6,150);
+                }
+            }
+            a{
+                padding-top: .8rem;
+            }
+            
+        }
+        .website-details{
+            .numb{
+                margin-top: .7rem;
+                gap: .7rem;
+                i{
+                    font-size: 1.1rem;
+                    color: rgb(89,6,150);
+                }
+            }
+            a{
+                padding-top: .8rem;
+            }
+            
+        }
+    }
+    .contact-socials{
+        background-color: green;
+    }
+}

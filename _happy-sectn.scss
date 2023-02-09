@@ -1,0 +1,88 @@
+.happy-sectn{
+    width:100%;
+    padding: 2rem 7rem;
+    gap: 2rem;
+    @media(max-width:768px){
+        padding: 2rem 1rem;
+        flex-direction: column;
+    }
+    .left-happy-sectn{
+        width:50% ;
+        gap: 1rem;
+        flex-direction: column;
+        @media(max-width:768px){
+            width: 100%;
+        }
+        // background-color: red;
+        h2{
+            font-size: 70px;
+            line-height: 70px;
+        }
+        .my-contacts{
+            width: 40%;
+            margin-top: 2rem;
+            gap: 2rem;
+            flex-direction: column;
+            // background-color: green;
+            .email{
+                width: 100%;
+                gap: .5rem;
+                .email-icon{
+                    margin-top: 1rem;
+                    width: 40px;
+                    height: 40px;
+                    align-items: center;
+                    margin-left: .4rem;
+                    font-size: 1.2rem;
+                    background-color: black;
+                    border-radius: 50%;
+                }
+            }
+            .phone{
+                width: 100%;
+                gap: .5rem;
+                
+                .email-icon{
+                    width: 40px;
+                    height: 40px;
+                    align-items: center;
+                    font-size: 1.2rem;
+                    background-color: black;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+    .right-happy-sectn{
+        width: 40%;
+        border-radius: 1rem;
+        background-color: rgb(44,40,46);
+        padding: 2rem 1rem;
+        gap: 1rem;
+        flex-direction: column;
+        @media(max-width:768px){
+            width: 100%;
+        }
+        textArea{
+            background-color: black;
+            width: 100%;
+            overflow: hidden;
+            padding: 1rem 2rem;
+            color: gainsboro;
+            font-size: 1.1rem;
+            resize: none;
+            @media(max-width:768px){
+                width: 100%;
+            }
+        }
+        input{
+            background-color: black;
+            padding: 1rem 2rem;
+            color: gainsboro;
+            font-size: 1.1rem;
+        }
+        button{
+            width: 40%;
+        }
+    }
+}
