@@ -1,8 +1,9 @@
 .conctact{
     background-color: rgb(0,1,1);
     width:100% ;
-    padding-top: 3.3rem;
-    padding: 1rem 3rem;
+    padding-top: 4rem;
+    padding-left: 2rem;
+    color: rgba(255, 255, 255, 0.84);
     @media(max-width:768px){
         width: 100%;
         padding: 0;
@@ -13,32 +14,35 @@
         }
         .contact-details{
             width: 35%;
-            // background-color: red;
             gap: 2rem;
             flex-direction: column;
-            padding: 1rem;
+            padding-left: 2rem;
             @media(max-width:768px){
                 width: 100%;
-                // background-color: red;
-                
             }
             img{
                 width: 40%;
             }
             p{
                 width: 70%;
+                line-height: 27px;
+
             }
         }
         .contact-Numbers{
-            width: 35%;
+            width: 20%;
             padding: .1rem 2rem;
             flex-direction: column;
+            gap: 1rem;
+            color: rgba(255, 255, 255, 0.84);
             @media(max-width:768px){
                 width: 100%;
-                padding: .1rem .5rem;
-                background-color: red;
+                padding-left: 2rem;
+                // padding: .1rem .5rem;
+                // background-color: red;
             }
             .title{
+                color: white;
                 .line{
                     width: 55px;
                     height: 4px;
@@ -51,6 +55,7 @@
                     font-family: Family
                     "Josefin Sans";;
                     color: rgba(255, 255, 255, 0.84);
+                    color: rgba(255, 255, 255, 0.84);
                 }
             }
             .numbs-details{
@@ -59,7 +64,6 @@
                     width: 100%;
                 }
                 .numb{
-                    margin-top: 2rem;
                     gap: 1.2rem;
                     @media(max-width:768px){
                         gap: .5rem;
@@ -88,6 +92,10 @@
                 
             }
             .website-details{
+                gap: 1rem;
+                // background-color: red;
+                margin-top: 1rem;
+                
                 .numb{
                     margin-top: .7rem;
                     gap: 1.2rem;
@@ -98,62 +106,108 @@
                 }
                 a{
                     padding-top: .8rem;
+                    gap: 1rem;
+                    // background-color: red;
                 }
                 
             }
         }
-        .contact-socials{
-            padding: 2rem;
-            .socials{
-                width: 80%;
-                // background-color: red;
-                gap: .6rem;
-                margin-bottom: 2rem;
-                .facebk{
-                    width: 23%;
-                    padding: .6rem;
-                    text-align: center;
-                    font-size: 1.2rem;
-                    background-color: black;
-                    border-radius: 50%;
-                    border: 2px solid rgb(152,152,153);
-                    &:hover{
-                        background-color: rgb(80,1,236);
-                    }
-                }
-            }
-            .input{
-                position: relative;
-                margin-top: 1rem;
-                input{
-                    width: 100%;
-                    padding: 1rem 2rem;
-                    border-radius: 20px;
-                }
-                button{
-                    padding: .7rem .6rem;
-                    border-radius: 20px;
-                    background-color: rgb(88,7,150);
-                    position: absolute;
-                    color: white;
-                    right: .4rem;
-                    top: 8%;
-                }
-            }
-        }
+        
     }
-    .bottom-contact{
-        text-align: center;
-        margin-top: 5rem;
-        padding-top: 1.6rem;
-        padding-bottom: 1rem;
-        border-top: 1px solid gray;
-        width: 90%;
-        margin-left: 2rem;
+    .contact-socials{
+        padding-left: 5rem;
+        // background-color: red;
+        width: 35%;
         @media(max-width:768px){
             width: 100%;
-            margin-left: 0rem;
+            margin-top: 2rem;
+            padding-left: 1rem;
+        }
+        .socials{
+            width: 48%;
+            // background-color: red;
+            gap: .6rem;
+            margin-bottom: 2rem;
+            
+            .facebk{
+                width: 23%;
+                padding: .6rem;
+                text-align: center;
+                font-size: 1.2rem;
+                background-color: black;
+                border-radius: 50%;
+                border: 2px solid rgb(152,152,153);
+                &:hover{
+                    background-color: rgb(80,1,236);
+                }
+            }
+        }
+        .input{
+            position: relative;
+            margin-top: 1rem;
+            input{
+                width: 270px;
+                padding: .8rem 1rem;
+                border-radius: 20px;
+                @media(max-width:768px){
+                    width: 90%;
+                }
+            }
+            button{
+                padding: .7rem .6rem;
+                border-radius: 20px;
+                background-color: rgb(88,7,150);
+                position: absolute;
+                color: white;
+                left: 11.4rem;
+                top: 8%;
+                @media(max-width:768px){
+                    left: 36.8rem;
+                }
+                @media(max-width:617px){
+                    left: 28.2rem;
+                }
+                @media(max-width:540px){
+                    left: 23.8rem;
+                }
+                @media(max-width:500px){
+                    left: 18.2rem;
+                }
+                @media(max-width:478px){
+                    left: 18.2rem;
+                }
+                @media(max-width:414px){
+                    left: 17rem;
+                }
+                @media(max-width:393px){
+                    left: 15.5rem;
+                }
+                @media(max-width:375px){
+                    left: 14.7rem;
+                }
+                @media(max-width:360px){
+                    left: 13.9rem;
+                }
+                @media(max-width:280px){
+                    left: 9.3rem;
+                    background-color: red;
+                }
+            }
         }
     }
-    
-}}
+}
+.bottom-contact{
+    text-align: center;
+    margin-top: 8rem;
+    padding-top: 1.6rem;
+    padding-bottom: 1.4rem;
+    border-top: 1px solid gray;
+    width: 90%;
+    margin-left: 2rem;
+    @media(max-width:768px){
+        margin-top: 5rem;
+        width: 100%;
+        margin-left: 0rem;
+    }
+}
+}
