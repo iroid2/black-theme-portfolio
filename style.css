@@ -149,14 +149,16 @@ span {
 }
 
 .absol {
-  padding: 1rem 1rem;
-  background-color: rgb(176, 28, 240);
   border-radius: 50%;
-  position: absolute;
   font-size: 2rem;
-  right: 1rem;
+  right: 2rem;
   position: fixed;
-  top: 29rem;
+  top: 13rem;
+  z-index: 200;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+.absol img {
+  width: 70px;
 }
 
 .latest-work {
@@ -965,7 +967,7 @@ body {
   }
 }
 .work .side-work-menu svg {
-  width: 18px;
+  width: 28px;
 }
 .work .side-work-menu .line {
   width: 30px;
@@ -1006,7 +1008,8 @@ body {
 .work .main-work-menu .left-main h1 {
   width: 100%;
   font-size: 60px;
-  line-height: 80px;
+  line-height: 20px;
+  color: rgb(251, 203, 10);
 }
 @media (max-width: 768px) {
   .work .main-work-menu .left-main h1 {
@@ -1034,4 +1037,9 @@ body {
   .work .main-work-menu .right-main img {
     width: 95%;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+.work .main-work-menu .right-main img:hover {
+  margin-top: 0.8rem;
+  transition: 1s;
+}
+@keyframes margin {}/*# sourceMappingURL=style.css.map */
