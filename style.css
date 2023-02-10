@@ -273,6 +273,9 @@ span {
     width: 100%;
   }
 }
+.abt-me .right-abt button {
+  width: 40%;
+}
 .abt-me .right-abt .graphic-skils {
   width: 100%;
   padding: 2rem 0rem;
@@ -330,15 +333,6 @@ span {
 @media (max-width: 768px) {
   .abt-me .right-abt .graphic-skils .photoshop .icon img {
     width: 20px;
-  }
-}
-.abt-me .right-abt .graphic-skils .hire-btn {
-  width: 30%;
-  background-color: green;
-}
-@media (max-width: 360px) {
-  .abt-me .right-abt .graphic-skils .hire-btn {
-    width: 20%;
   }
 }
 

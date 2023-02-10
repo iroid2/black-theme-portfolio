@@ -24,6 +24,9 @@
         @media(max-width:768px){
             width: 100%;
         }
+        button{
+            width: 40%;
+        }
         .graphic-skils{
             width: 100%;
             // background-color: red;
@@ -80,11 +83,5 @@
                 }
             }
         }
-        .hire-btn{
-            width: 30%;
-            background-color: green;
-            @media(max-width:360px){
-                width: 20%;
-        }
-    }
+        
 }}}
