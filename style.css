@@ -428,75 +428,80 @@ span {
   line-height: 22px;
 }
 
-.bottm-trusted {
-  background-color: red;
+.trusted {
   width: 100%;
 }
-.bottm-trusted .testimony {
+.trusted .top-trusted {
+  padding-top: 2rem;
+}
+.trusted .bottm-trusted {
   width: 100%;
-  background-color: green;
+  padding-top: 3rem;
+  font-size: 18px;
+  line-height: 31px;
+}
+.trusted .bottm-trusted .testimony {
+  width: 100%;
   padding: 2rem;
 }
 @media (max-width: 768px) {
-  .bottm-trusted .testimony {
+  .trusted .bottm-trusted .testimony {
     padding: 0rem;
   }
 }
-.bottm-trusted .testimony .slide {
+.trusted .bottm-trusted .testimony .slide {
   width: 80%;
   padding: 2rem;
-  background-color: tomato;
 }
 @media (max-width: 768px) {
-  .bottm-trusted .testimony .slide {
+  .trusted .bottm-trusted .testimony .slide {
     flex-direction: column;
     padding: 0.1rem;
     width: 100%;
   }
 }
-.bottm-trusted .testimony .slide .left-slide {
+.trusted .bottm-trusted .testimony .slide .left-slide {
   width: 50%;
   margin-top: 2rem;
   position: relative;
 }
 @media (max-width: 768px) {
-  .bottm-trusted .testimony .slide .left-slide {
+  .trusted .bottm-trusted .testimony .slide .left-slide {
     width: 100%;
   }
 }
-.bottm-trusted .testimony .slide .left-slide img {
+.trusted .bottm-trusted .testimony .slide .left-slide img {
   width: 30%;
   z-index: 90;
   transform: rotate(13deg);
   position: relative;
 }
 @media (max-width: 768px) {
-  .bottm-trusted .testimony .slide .left-slide img {
+  .trusted .bottm-trusted .testimony .slide .left-slide img {
     width: 60%;
   }
 }
-.bottm-trusted .testimony .slide .left-slide .overaly {
+.trusted .bottm-trusted .testimony .slide .left-slide .overaly {
   width: 30%;
   height: 200px;
   right: 10rem;
   top: 0.4rem;
   transform: rotate(13deg);
-  background-color: rgb(88, 0, 255);
   position: absolute;
   z-index: 1;
 }
 @media (max-width: 768px) {
-  .bottm-trusted .testimony .slide .left-slide .overaly {
+  .trusted .bottm-trusted .testimony .slide .left-slide .overaly {
     width: 60%;
     height: 290px;
     right: 4rem;
   }
 }
-.bottm-trusted .testimony .slide .right-slide {
+.trusted .bottm-trusted .testimony .slide .right-slide {
   width: 50%;
 }
 @media (max-width: 768px) {
-  .bottm-trusted .testimony .slide .right-slide {
+  .trusted .bottm-trusted .testimony .slide .right-slide {
     width: 70%;
   }
 }
