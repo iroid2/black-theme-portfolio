@@ -1018,6 +1018,5 @@ body {
 @media (max-width: 768px), (max-width: 200px) {
   .work .main-work-menu .right-main img {
     width: 95%;
-    filter: grayscale(100%);
   }
 }/*# sourceMappingURL=style.css.map */
