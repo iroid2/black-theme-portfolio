@@ -224,6 +224,16 @@ span {
     width: 98%;
   }
 }
+.latest-work .bottm-latest-work .card a {
+  color: black;
+}
+.latest-work .bottm-latest-work .card a:hover {
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  padding: 0.4rem;
+}
 
 .abt-me {
   width: 100%;

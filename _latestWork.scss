@@ -52,6 +52,16 @@
                     width: 98%;
                 }
             }
+            a{
+                color: black;
+                &:hover{
+                    font-size: 1rem;
+                    font-weight: bold;
+                    background-color: black;
+                    color: white;
+                    padding: .4rem;
+                }
+            }
 
         }
     }
