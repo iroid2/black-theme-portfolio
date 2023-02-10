@@ -1,14 +1,42 @@
-var swiper = new Swiper(".mySwiper", {
-    spaceBetween: 30,
-    hashNavigation: {
-      watchState: true,
-    },
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-  });
+$('.owl-carousel').owlCarousel({
+  loop:true,
+  margin:10,
+  nav:true,
+  responsive:{
+      0:{
+          items:1
+      },
+      600:{
+          items:3
+      },
+      1000:{
+          items:5
+      }
+  }
+})
+
+let currentImage = 0;
+let images = document.querySelectorAll(".image-container img");
+let prevButton = document.querySelector("#prev-button");
+let nextButton = document.querySelector("#next-button");
+
+prevButton.addEventListener("click", function() {
+  currentImage--;
+  if (currentImage < 0) {
+    currentImage = images.length - 1;
+  }
+  updateGallery();
+});
+
+nextButton.addEventListener("click", function() {
+  currentImage++;
+  if (currentImage === images.length) {
+    currentImage = 0;
+  }
+  updateGallery();
+});
+
+function updateGallery() {
+  let imageContainer = document.querySelector(".image-container");
+  imageContainer.style.left = "-" + (currentImage * 25) + "%";
+}
