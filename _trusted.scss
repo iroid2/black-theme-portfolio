@@ -89,6 +89,7 @@
                             }
                         }
                         span{
+                            
                             font-size: 3rem;
                             line-height: 1;
                         }
@@ -106,15 +107,16 @@
                 z-index: 9999;
                 gap: 1.4rem;
                 @media(max-width:768px){
-                    gap: 0rem;
-                    padding-right: 3rem;
+                    gap: 1rem;
+                    padding-right: 2rem;
+                }
                 svg{
-                    width: 50px;
+                    width: 40px;
                     @media(max-width:768px){
-                        width: 30px;
+                        width: 40px;
                     }
                 }
             }
         }
     }
-}}  
+}

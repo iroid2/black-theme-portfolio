@@ -543,16 +543,16 @@ span {
 }
 @media (max-width: 768px) {
   .trusted .bottm-trusted .swiper .custom-btns {
-    gap: 0rem;
-    padding-right: 3rem;
-  }
-  .trusted .bottm-trusted .swiper .custom-btns svg {
-    width: 50px;
+    gap: 1rem;
+    padding-right: 2rem;
   }
 }
-@media (max-width: 768px) and (max-width: 768px) {
+.trusted .bottm-trusted .swiper .custom-btns svg {
+  width: 40px;
+}
+@media (max-width: 768px) {
   .trusted .bottm-trusted .swiper .custom-btns svg {
-    width: 30px;
+    width: 40px;
   }
 }
 
