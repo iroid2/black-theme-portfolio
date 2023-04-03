@@ -426,79 +426,133 @@ span {
 
 .trusted {
   width: 100%;
+  font-family: "Josefin Sans", sans-serif;
 }
 .trusted .top-trusted {
-  padding-top: 2rem;
+  width: 100%;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
 }
 .trusted .bottm-trusted {
   width: 100%;
-  padding-top: 3rem;
-  font-size: 18px;
-  line-height: 31px;
 }
-.trusted .bottm-trusted .testimony {
+.trusted .bottm-trusted .swiper {
+  width: 70%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 768px) {
+  .trusted .bottm-trusted .swiper {
+    width: 100%;
+  }
+}
+.trusted .bottm-trusted .swiper .swiper-wrapper {
   width: 100%;
-  padding: 2rem;
+  height: 300px;
+  z-index: 10;
 }
 @media (max-width: 768px) {
-  .trusted .bottm-trusted .testimony {
-    padding: 0rem;
+  .trusted .bottm-trusted .swiper .swiper-wrapper {
+    height: 230px;
   }
 }
-.trusted .bottm-trusted .testimony .slide {
-  width: 80%;
-  padding: 2rem;
-}
-@media (max-width: 768px) {
-  .trusted .bottm-trusted .testimony .slide {
-    flex-direction: column;
-    padding: 0.1rem;
-    width: 100%;
-  }
-}
-.trusted .bottm-trusted .testimony .slide .left-slide {
-  width: 50%;
+.trusted .bottm-trusted .swiper .swiper-wrapper .swiper-slide {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  border-radius: 1rem;
+  overflow: hidden;
   margin-top: 2rem;
-  position: relative;
 }
 @media (max-width: 768px) {
-  .trusted .bottm-trusted .testimony .slide .left-slide {
+  .trusted .bottm-trusted .swiper .swiper-wrapper .swiper-slide {
     width: 100%;
   }
 }
-.trusted .bottm-trusted .testimony .slide .left-slide img {
-  width: 30%;
-  z-index: 90;
-  transform: rotate(13deg);
+.trusted .bottm-trusted .swiper .swiper-wrapper .swiper-slide .left-sectn {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
+  padding-bottom: 1.3rem;
 }
 @media (max-width: 768px) {
-  .trusted .bottm-trusted .testimony .slide .left-slide img {
-    width: 60%;
+  .trusted .bottm-trusted .swiper .swiper-wrapper .swiper-slide .left-sectn {
+    margin-top: 4rem;
+    height: 40%;
+    width: 40%;
+    padding-bottom: 2rem;
   }
 }
-.trusted .bottm-trusted .testimony .slide .left-slide .overaly {
-  width: 30%;
-  height: 200px;
-  right: 10rem;
-  top: 0.4rem;
-  transform: rotate(13deg);
+.trusted .bottm-trusted .swiper .swiper-wrapper .swiper-slide .left-sectn img {
+  width: 40%;
+  z-index: 2990;
+  transform: rotate(10deg);
+}
+.trusted .bottm-trusted .swiper .swiper-wrapper .swiper-slide .left-sectn .bg-overal {
+  width: 40%;
+  height: 63%;
   position: absolute;
+  background-color: rgb(25, 85, 214);
+  margin-left: 1rem;
+  margin-top: 1.7rem;
   z-index: 1;
+  border-style: dashed;
+  transform: rotate(10deg);
 }
 @media (max-width: 768px) {
-  .trusted .bottm-trusted .testimony .slide .left-slide .overaly {
-    width: 60%;
-    height: 290px;
-    right: 4rem;
+  .trusted .bottm-trusted .swiper .swiper-wrapper .swiper-slide .left-sectn .bg-overal {
+    width: 40%;
+    height: 80%;
+    margin-left: 1rem;
   }
 }
-.trusted .bottm-trusted .testimony .slide .right-slide {
-  width: 50%;
+.trusted .bottm-trusted .swiper .swiper-wrapper .swiper-slide .right-sectn {
+  width: 60%;
+  height: 100%;
+}
+.trusted .bottm-trusted .swiper .swiper-wrapper .swiper-slide .right-sectn p {
+  font-size: 1.2rem;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.4;
 }
 @media (max-width: 768px) {
-  .trusted .bottm-trusted .testimony .slide .right-slide {
-    width: 70%;
+  .trusted .bottm-trusted .swiper .swiper-wrapper .swiper-slide .right-sectn p {
+    font-size: 0.7rem;
+    line-height: 1;
+  }
+}
+.trusted .bottm-trusted .swiper .swiper-wrapper .swiper-slide .right-sectn span {
+  font-size: 3rem;
+  line-height: 1;
+}
+.trusted .bottm-trusted .swiper .custom-btns {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  bottom: 0;
+  z-index: 9999;
+  gap: 1.4rem;
+}
+@media (max-width: 768px) {
+  .trusted .bottm-trusted .swiper .custom-btns {
+    gap: 0rem;
+    padding-right: 3rem;
+  }
+  .trusted .bottm-trusted .swiper .custom-btns svg {
+    width: 50px;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .trusted .bottm-trusted .swiper .custom-btns svg {
+    width: 30px;
   }
 }
 

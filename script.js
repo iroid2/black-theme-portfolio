@@ -1,42 +1,37 @@
-$('.owl-carousel').owlCarousel({
-  loop:true,
-  margin:10,
-  nav:true,
-  responsive:{
-      0:{
-          items:1
-      },
-      600:{
-          items:3
-      },
-      1000:{
-          items:5
-      }
-  }
-})
 
-let currentImage = 0;
-let images = document.querySelectorAll(".image-container img");
-let prevButton = document.querySelector("#prev-button");
-let nextButton = document.querySelector("#next-button");
 
-prevButton.addEventListener("click", function() {
-  currentImage--;
-  if (currentImage < 0) {
-    currentImage = images.length - 1;
-  }
-  updateGallery();
-});
 
-nextButton.addEventListener("click", function() {
-  currentImage++;
-  if (currentImage === images.length) {
-    currentImage = 0;
-  }
-  updateGallery();
-});
 
-function updateGallery() {
-  let imageContainer = document.querySelector(".image-container");
-  imageContainer.style.left = "-" + (currentImage * 25) + "%";
-}
+// nextButton.addEventListener("click", function() {
+//   currentImage++;
+//   if (currentImage === images.length) {
+//     currentImage = 0;
+//   }
+//   updateGallery();
+// });
+
+// function updateGallery() {
+//   let imageContainer = document.querySelector(".image-container");
+//   imageContainer.style.left = "-" + (currentImage * 25) + "%";
+// }
+const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+  slidesPerview:1,
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '#right',
+    prevEl: '#left',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+}); 
