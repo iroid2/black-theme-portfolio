@@ -492,12 +492,17 @@ span {
   z-index: 2990;
   transform: rotate(10deg);
 }
+@media (max-width: 768px) {
+  .trusted .bottm-trusted .swiper .swiper-wrapper .swiper-slide .left-sectn img {
+    width: 50%;
+  }
+}
 .trusted .bottm-trusted .swiper .swiper-wrapper .swiper-slide .left-sectn .bg-overal {
-  width: 40%;
-  height: 63%;
+  width: 50%;
+  height: 68%;
   position: absolute;
   background-color: rgb(25, 85, 214);
-  margin-left: 1rem;
+  margin-left: 2rem;
   margin-top: 1.7rem;
   z-index: 1;
   border-style: dashed;
@@ -931,6 +936,65 @@ body {
 }
 .container .mobo-nav .mobo-log img {
   width: 70%;
+}
+.container .mobo-nav .mobo-menu-list {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  padding: 1.5rem;
+  right: 0;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  background-color: rgb(15, 11, 18);
+  display: none;
+}
+.container .mobo-nav .mobo-menu-list .home-men {
+  border-bottom: 1px solid rgb(92, 91, 91);
+  padding-top: 1rem;
+}
+.container .mobo-nav .mobo-menu-list .home-men .drop {
+  padding: 0.5rem 0.9rem;
+  background-color: rgb(245, 240, 240);
+  font-size: 0.5rem;
+  color: black;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container .mobo-nav .mobo-menu-list svg {
+  margin-bottom: 2.6rem;
+  background-color: rgb(88, 0, 255);
+  border-radius: 50%;
+  width: 40px;
+  padding: 0.3rem;
+}
+.container .mobo-nav .mobo-menu-list .footer-ham-list {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 2rem 0;
+}
+.container .mobo-nav .mobo-menu-list .footer-ham-list .contact-infor {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.container .mobo-nav .mobo-menu-list .footer-ham-list img {
+  width: 70%;
+  padding: 1rem 0;
+}
+.container .mobo-nav .mobo-menu-list .socials {
+  margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+.container .mobo-nav .mobo-menu-list .socials i {
+  padding: 0.4rem;
+  background-color: rgb(88, 0, 255);
+}
+.container .mobo-nav .active {
+  display: block;
 }
 .container .mobo-nav .mobo-menu {
   width: 50%;
