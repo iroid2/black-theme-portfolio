@@ -9,3 +9,12 @@ const hiddenHamList=document.querySelector(".mobo-menu-list");
   cancel.addEventListener(("click"),function(){
     hiddenHamList.classList.remove("active");
 });
+const drop=document.querySelector(".drop");
+const cancelDrop=document.querySelector(".cancel-drop");
+const homeMenList=document.querySelector(".home-men-list");
+
+
+drop.addEventListener(("click"),function(){
+    homeMenList.classList.add("active");
+});
+

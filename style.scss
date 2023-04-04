@@ -78,6 +78,31 @@ body{
                     font-weight: 600;
                     font-family: Arial, Helvetica, sans-serif;
                 }
+                .cancel-drop{
+                    transform: rotate(180deg);
+                    display: none;
+                }
+            }
+            .home-men-list{
+                background-color: red;
+                padding: .3rem 1rem;
+                justify-content: space-between;
+                display: none;
+                .home-men-list-drop{
+                    padding: .5rem .9rem;  
+                    background-color: rgb(245, 240, 240);
+                    font-size: .5rem;
+                    color: black;
+                    font-weight: 600;
+                    font-family: Arial, Helvetica, sans-serif;
+                } 
+                
+                // .multiPage{
+
+                // }
+            }
+            .active{
+                display: block;
             }
             svg{
                 margin-bottom: 2.6rem;

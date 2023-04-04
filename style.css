@@ -962,6 +962,27 @@ body {
   font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
 }
+.container .mobo-nav .mobo-menu-list .home-men .cancel-drop {
+  transform: rotate(180deg);
+  display: none;
+}
+.container .mobo-nav .mobo-menu-list .home-men-list {
+  background-color: red;
+  padding: 0.3rem 1rem;
+  justify-content: space-between;
+  display: none;
+}
+.container .mobo-nav .mobo-menu-list .home-men-list .home-men-list-drop {
+  padding: 0.5rem 0.9rem;
+  background-color: rgb(245, 240, 240);
+  font-size: 0.5rem;
+  color: black;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container .mobo-nav .mobo-menu-list .active {
+  display: block;
+}
 .container .mobo-nav .mobo-menu-list svg {
   margin-bottom: 2.6rem;
   background-color: rgb(88, 0, 255);
